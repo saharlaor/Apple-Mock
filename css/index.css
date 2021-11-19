@@ -114,16 +114,10 @@ ul {
 }
 
 /* Main */
+/*** General ***/
 .product-page {
+    position: relative;
     height: var(--product-height);
-}
-.holiday-logo {
-    height: 88px;
-    width: 70px;
-    background-size: 70px 88px;
-    background-repeat: no-repeat;
-    background-image: url(../assets/img/logo__dcojfwkzna2q_medium_2x.png);
-    margin: 0 auto;
 }
 
 .product-links {
@@ -153,6 +147,16 @@ ul {
     height: 348px;
     background-size: 359px 348px;
     background-repeat: no-repeat;
+}
+
+/*** Holiday Gifts ***/
+.holiday-logo {
+    height: 88px;
+    width: 70px;
+    background-size: 70px 88px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/logo__dcojfwkzna2q_medium_2x.png);
+    margin: 0 auto;
 }
 
 /* Footer */
@@ -200,7 +204,15 @@ ul {
 }
 
 /* Main */
-/*** Section ***/
+/*** General ***/
+.product-page__link {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+/*** Holiday Gifts ***/
 .product-info__primary-title {
     margin-top: 20px;
     font-size: 56px;
@@ -220,7 +232,7 @@ ul {
 
 /* Navbar */
 /* Main */
-/*** Section ***/
+/*** Holiday Gifts ***/
 .product-page--holiday {
     background-color: #eaf2fc;
 }
