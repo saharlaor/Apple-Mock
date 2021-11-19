@@ -5,6 +5,9 @@
     --navbar-backgroud-color: rgba(0, 0, 0, 0.8);
     --navbar-color: #f5f5f7;
     --banner-background-color: #e34140;
+    --link-color: #06c;
+
+    --product-height: 692px;
 }
 
 * {
@@ -105,7 +108,53 @@ ul {
     background-color: var(--banner-background-color);
 }
 
+.arrow-icon {
+    font-family: "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial",
+        sans-serif;
+}
+
 /* Main */
+.product-page {
+    height: var(--product-height);
+}
+.holiday-logo {
+    height: 88px;
+    width: 70px;
+    background-size: 70px 88px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/logo__dcojfwkzna2q_medium_2x.png);
+    margin: 0 auto;
+}
+
+.product-links {
+    margin-top: 9px;
+    color: var(--link-color);
+    display: inline-block;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: 0.011rem;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+        "Arial", sans-serif;
+    margin-top: 0.65rem;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 246.39px);
+    width: 100%;
+}
+
+.product-img {
+    margin: 0 25px;
+    width: 359px;
+    height: 348px;
+    background-size: 359px 348px;
+    background-repeat: no-repeat;
+}
+
 /* Footer */
 
 /**************\
@@ -150,12 +199,19 @@ ul {
     padding: 12px 0;
 }
 
-.arrow-icon {
-    font-family: "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial",
-        sans-serif;
+/* Main */
+/*** Section ***/
+.product-info__primary-title {
+    margin-top: 20px;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -0.005em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+        "Arial", sans-serif;
+    color: #1d1d1f;
 }
 
-/* Main */
 /* Footer */
 
 /***************\
@@ -164,6 +220,34 @@ ul {
 
 /* Navbar */
 /* Main */
+/*** Section ***/
+.product-page--holiday {
+    background-color: #eaf2fc;
+}
+
+.product-info--holiday {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-top: 37px;
+}
+
+.product-info--holiday > * {
+    text-align: center;
+}
+
+.product-img--iphone13 {
+    background-image: url(../assets/img/iphone__cyamwsdph26a_medium_2x.png);
+}
+
+.product-img--airpods {
+    background-image: url(../assets/img/airpods__b0941p5gmwj6_medium_2x.png);
+}
+
+.product-img--ipad {
+    background-image: url(../assets/img/ipad__bq6djchifrbm_medium_2x.png);
+}
+
 /* Footer */
 
 /**************\
