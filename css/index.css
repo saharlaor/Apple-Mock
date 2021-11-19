@@ -6,6 +6,7 @@
     --navbar-color: #f5f5f7;
     --banner-background-color: #e34140;
     --link-color: #06c;
+    --heading-color: #1d1d1f;
 
     --product-height: 692px;
 }
@@ -18,7 +19,6 @@
 
 html,
 body {
-    width: 100vw;
 }
 
 body {
@@ -42,9 +42,13 @@ nav {
     min-width: 1024px;
     background-color: var(--navbar-backgroud-color);
     font-size: 17px;
+    z-index: 999;
 }
 
 main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
 }
 
 section {
@@ -52,6 +56,7 @@ section {
 
 a {
     color: inherit;
+    font-family: inherit;
     text-decoration: none;
 }
 
@@ -118,6 +123,18 @@ ul {
 .product-page {
     position: relative;
     height: var(--product-height);
+    grid-column: 1 / span 2;
+}
+
+.product-info {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding-top: 37px;
+}
+
+.product-info > * {
+    text-align: center;
 }
 
 .product-links {
@@ -132,6 +149,17 @@ ul {
         "Arial", sans-serif;
     margin-top: 0.65rem;
 }
+/* 
+.product-links > * {
+    display: inline-block;
+    font-size: 21px;
+    line-height: 1.381;
+    font-weight: 400;
+    letter-spacing: 0.011em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+        "Arial", sans-serif;
+    margin-top: 0.65em;
+} */
 
 .img-wrapper {
     display: flex;
@@ -211,8 +239,6 @@ ul {
     height: 100%;
     width: 100%;
 }
-
-/*** Holiday Gifts ***/
 .product-info__primary-title {
     margin-top: 20px;
     font-size: 56px;
@@ -223,6 +249,18 @@ ul {
         "Arial", sans-serif;
     color: #1d1d1f;
 }
+.product-info__secondary-title {
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+        "Arial", sans-serif;
+    margin-top: 6px;
+    color: #1d1d1f;
+}
+
+/*** Holiday Gifts ***/
 
 /* Footer */
 
@@ -232,20 +270,14 @@ ul {
 
 /* Navbar */
 /* Main */
+/*** General ***/
+.product-link--buy {
+    margin-left: 35px;
+}
+
 /*** Holiday Gifts ***/
 .product-page--holiday {
     background-color: #eaf2fc;
-}
-
-.product-info--holiday {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    padding-top: 37px;
-}
-
-.product-info--holiday > * {
-    text-align: center;
 }
 
 .product-img--iphone13 {
@@ -258,6 +290,15 @@ ul {
 
 .product-img--ipad {
     background-image: url(../assets/img/ipad__bq6djchifrbm_medium_2x.png);
+}
+
+/*** iPhone 13 Pro ***/
+.product-page--iphone-13-pro {
+    background-color: #fcfbfd;
+    background-image: url(../assets/img/hero_iphone_13pro__dhnsegysa42u_medium_2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -125px;
 }
 
 /* Footer */
