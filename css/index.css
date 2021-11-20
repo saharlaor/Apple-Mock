@@ -256,7 +256,6 @@ footer {
 .footer-nav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    /* justify-content: space-between; */
     align-items: start;
     position: initial;
     height: initial;
@@ -356,10 +355,23 @@ footer {
     font-weight: 600;
     margin-right: 20px;
     margin-bottom: 0.8em;
+    color: var(--footer-directory-title-color);
 }
 
 .footer-nav__list-item {
     margin-bottom: 0.8em;
+}
+
+.footer__shop {
+    margin-bottom: 7px;
+    padding-top: 34px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--footer-border-color);
+    letter-spacing: 0;
+}
+
+.footer__shop a {
+    color: var(--link-color);
 }
 
 /***************\
