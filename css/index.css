@@ -166,11 +166,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-}
-.img-wrapper {
     position: absolute;
     top: 0;
     display: flex;
@@ -179,6 +174,7 @@ ul {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    z-index: -1;
 }
 
 .product-img {
@@ -197,6 +193,25 @@ ul {
     background-repeat: no-repeat;
     background-image: url(../assets/img/logo__dcojfwkzna2q_medium_2x.png);
     margin: 0 auto;
+}
+
+/*** Holiday Gifts ***/
+.watch-logo {
+    height: 56px;
+    background-size: 146px 56px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/tile_watch_logo_lte__h7snssb7mqq2_medium_2x.png);
+    background-position: center;
+    margin-bottom: 5px;
+}
+
+/*** Watch ***/
+.new-label {
+    color: #bf4800;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -0.01em;
 }
 
 /* Footer */
@@ -325,6 +340,11 @@ ul {
     letter-spacing: -0.022em;
 }
 
+.product-page--small-left .img-wrapper,
+.product-page--small-right .img-wrapper {
+    background-color: #fcfbfd;
+}
+
 /*** Holiday Gifts ***/
 .product-page--holiday {
     background-color: #eaf2fc;
@@ -348,13 +368,6 @@ ul {
 }
 
 /*** iPhone 13 Pro ***/
-.img-wrapper--iphone-13,
-.img-wrapper--iphone-13-pro {
-    position: absolute;
-    top: 0;
-    overflow: hidden;
-}
-
 .img-wrapper--iphone-13-pro {
     background-color: #fcfbfd;
 }
@@ -399,6 +412,29 @@ ul {
     background-repeat: no-repeat;
     background-size: cover;
     transform: scale(1.1) translateY(-80px);
+    margin: 0;
+}
+
+.product-page--watch .product-info {
+    padding-top: 31px;
+}
+
+.product-page--watch .product-info__primary-title {
+    margin-top: 8px;
+}
+
+.product-page--small-right .img-wrapper--watch {
+    background-color: #f5f5f7;
+}
+
+.product-img--watch {
+    /* width: 1262px;
+    height: 580px; */
+    background-image: url(../assets/img/tile_watch__e9n11b6m6yq2_medium_2x.jpg);
+    /* background-size: 1262px 580px; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    transform: scale(1.9) translateY(-10px);
     margin: 0;
 }
 
