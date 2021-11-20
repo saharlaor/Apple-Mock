@@ -5,7 +5,7 @@
     --navbar-backgroud-color: rgba(0, 0, 0, 0.8);
     --navbar-color: #f5f5f7;
     --banner-background-color: #e34140;
-    --link-color: #06c;
+    --link-color: #2d97ff;
     --heading-color: #1d1d1f;
 
     --product-height: 692px;
@@ -116,6 +116,7 @@ ul {
 .arrow-icon {
     font-family: "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial",
         sans-serif;
+    font-weight: 400;
 }
 
 /* Main */
@@ -143,11 +144,11 @@ ul {
     display: inline-block;
     font-size: 21px;
     line-height: 1.381;
-    font-weight: 400;
-    letter-spacing: 0.011rem;
+    font-weight: 300;
+    letter-spacing: 0.011em;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
         "Arial", sans-serif;
-    margin-top: 0.65rem;
+    margin-top: 0.65em;
 }
 /* 
 .product-links > * {
@@ -165,7 +166,17 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100% - 246.39px);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.product-page--iphone13 .img-wrapper {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     width: 100%;
 }
 
@@ -243,7 +254,7 @@ ul {
     margin-top: 20px;
     font-size: 56px;
     line-height: 1.07143;
-    font-weight: 600;
+    font-weight: 500;
     letter-spacing: -0.005em;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
         "Arial", sans-serif;
@@ -252,7 +263,7 @@ ul {
 .product-info__secondary-title {
     font-size: 28px;
     line-height: 1.10722;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 0.004em;
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
         "Arial", sans-serif;
@@ -280,25 +291,64 @@ ul {
     background-color: #eaf2fc;
 }
 
-.product-img--iphone13 {
+.img-wrapper--holiday {
+    height: calc(100% - 246.39px);
+}
+
+.product-page--holiday .product-img--iphone13 {
     background-image: url(../assets/img/iphone__cyamwsdph26a_medium_2x.png);
 }
 
-.product-img--airpods {
+.product-page--holiday .product-img--airpods {
     background-image: url(../assets/img/airpods__b0941p5gmwj6_medium_2x.png);
 }
 
-.product-img--ipad {
+.product-page--holiday .product-img--ipad {
     background-image: url(../assets/img/ipad__bq6djchifrbm_medium_2x.png);
 }
 
 /*** iPhone 13 Pro ***/
-.product-page--iphone-13-pro {
+.img-wrapper--iphone-13,
+.img-wrapper--iphone-13-pro {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+}
+
+.img-wrapper--iphone-13-pro {
     background-color: #fcfbfd;
+}
+
+.product-img--iphone-13-pro {
     background-image: url(../assets/img/hero_iphone_13pro__dhnsegysa42u_medium_2x.jpg);
-    background-size: cover;
+    width: 1370px;
+    height: 100%;
+    background-size: 1370px 736px;
     background-repeat: no-repeat;
-    background-position-y: -125px;
+    background-position-y: -60px;
+    transform: scaleY(1.05);
+}
+
+.img-wrapper--iphone-13 {
+    background-color: #35283b;
+}
+
+.product-img--iphone-13 {
+    background-image: url(../assets/img/hero_iphone_13__f194u1rdooeq_medium_2x.jpg);
+    width: 1370px;
+    height: 100%;
+    background-size: 1370px 736px;
+    background-repeat: no-repeat;
+    background-position-y: -60px;
+    transform: scaleY(1.05);
+}
+
+.product-page--iphone-13 .product-info__primary-title {
+    color: var(--navbar-color);
+}
+
+.product-page--iphone-13 .product-info__secondary-title {
+    color: #fcc2eb;
 }
 
 /* Footer */
