@@ -60,6 +60,17 @@ ul {
     list-style-type: none;
 }
 
+sup {
+    position: relative;
+    top: -0.5em;
+    font-size: 0.6em;
+    vertical-align: baseline;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -0.022em;
+    text-align: center;
+}
+
 /************\
 *** Blocks ***
 \************/
@@ -180,16 +191,6 @@ ul {
     margin: 0 auto;
 }
 
-/*** Holiday Gifts ***/
-.watch-logo {
-    height: 56px;
-    background-size: 146px 56px;
-    background-repeat: no-repeat;
-    background-image: url(../assets/img/tile_watch_logo_lte__h7snssb7mqq2_medium_2x.png);
-    background-position: center;
-    margin-bottom: 5px;
-}
-
 /*** Watch ***/
 .new-label {
     color: #bf4800;
@@ -197,6 +198,15 @@ ul {
     line-height: 1.33337;
     font-weight: 400;
     letter-spacing: -0.01em;
+}
+
+.watch-logo {
+    height: 56px;
+    background-size: 146px 56px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/tile_watch_logo_lte__h7snssb7mqq2_medium_2x.png);
+    background-position: center;
+    margin-bottom: 5px;
 }
 
 /* Footer */
@@ -303,7 +313,7 @@ ul {
 
 .product-page--small-left .product-info__primary-title,
 .product-page--small-right .product-info__primary-title {
-    margin-top: 15px;
+    margin-top: 16px;
     font-size: 40px;
     line-height: 1.1;
     font-weight: 500;
@@ -312,7 +322,7 @@ ul {
 
 .product-page--small-left .product-info__secondary-title,
 .product-page--small-right .product-info__secondary-title {
-    font-size: 21px;
+    font-size: 22px;
     line-height: 1.2381;
     font-weight: 300;
     letter-spacing: 0.016em;
@@ -368,6 +378,7 @@ ul {
     transform: scaleY(1.05);
 }
 
+/*** iPhone 13 ***/
 .img-wrapper--iphone-13 {
     background-color: #35283b;
 }
@@ -390,6 +401,7 @@ ul {
     color: #fcc2eb;
 }
 
+/*** MacBook Pro ***/
 .product-img--macbook-pro {
     width: 1262px;
     height: 580px;
@@ -401,6 +413,7 @@ ul {
     margin: 0;
 }
 
+/*** Watch ***/
 .product-page--watch .product-info {
     padding-top: 31px;
 }
@@ -420,6 +433,7 @@ ul {
     margin: 0;
 }
 
+/*** HomePod ***/
 .product-img--homepod {
     width: 1262px;
     height: 580px;
@@ -429,6 +443,25 @@ ul {
     background-size: cover;
     transform: scale(1.33) translateY(-73px);
     margin: 0;
+}
+
+/*** Arcade ***/
+.product-page--arcade .arcade-logo {
+    height: 34px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/logo__dcojfwkzna2q_large.png);
+    background-position: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.product-img--arcade {
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/tile_lego_castaways__d2v36ez91ewm_large.jpeg);
+    background-position: center;
 }
 
 /* Footer */
