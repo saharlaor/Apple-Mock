@@ -330,7 +330,7 @@ sup {
 
 .product-page--small-left .product-links,
 .product-page--small-right .product-links {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.23536;
     font-weight: 400;
     letter-spacing: -0.022em;
@@ -462,6 +462,28 @@ sup {
     background-repeat: no-repeat;
     background-image: url(../assets/img/tile_lego_castaways__d2v36ez91ewm_large.jpeg);
     background-position: center;
+}
+
+/*** Card ***/
+.product-page--card .card-logo {
+    margin-bottom: 5px;
+    margin-top: 20px;
+    height: 35px;
+    background-size: 125px 35px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/card_logo__dcojfwkzna2q_medium.png);
+    background-position: center;
+    transform: scale(1.05) translateY(-1px);
+}
+
+.product-img--card {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/tile__cauwwcyyn9hy_medium_2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    transform: scale(0.94) translateY(19px);
 }
 
 /* Footer */
