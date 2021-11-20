@@ -179,6 +179,7 @@ footer {
 }
 
 .product-links {
+    position: relative;
     margin-top: 9px;
     color: var(--link-color);
     display: inline-block;
@@ -353,6 +354,7 @@ footer {
     position: absolute;
     height: 100%;
     width: 100%;
+    z-index: 3;
 }
 .product-info__primary-title {
     margin-top: 20px;
@@ -635,13 +637,15 @@ footer {
     background-image: url(../assets/img/logo_light__cfvl40z2nzau_large.png);
     background-position: center;
     transform: scale(1.05) translateY(-1px);
+    z-index: 0;
 }
 
 .product-page--tv .product-info__content {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     width: 100%;
-    margin-bottom: 37px;
+    /* margin-bottom: 37px; */
+    margin-top: 286px;
     text-align: center;
 }
 
