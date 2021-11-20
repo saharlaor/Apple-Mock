@@ -17,10 +17,6 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-}
-
 body {
     min-width: 320px;
     line-height: 1.47059;
@@ -150,17 +146,6 @@ ul {
         "Arial", sans-serif;
     margin-top: 0.65em;
 }
-/* 
-.product-links > * {
-    display: inline-block;
-    font-size: 21px;
-    line-height: 1.381;
-    font-weight: 400;
-    letter-spacing: 0.011em;
-    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
-        "Arial", sans-serif;
-    margin-top: 0.65em;
-} */
 
 .img-wrapper {
     display: flex;
@@ -318,6 +303,7 @@ ul {
 
 .product-page--small-left .product-info__primary-title,
 .product-page--small-right .product-info__primary-title {
+    margin-top: 15px;
     font-size: 40px;
     line-height: 1.1;
     font-weight: 500;
@@ -428,13 +414,20 @@ ul {
 }
 
 .product-img--watch {
-    /* width: 1262px;
-    height: 580px; */
     background-image: url(../assets/img/tile_watch__e9n11b6m6yq2_medium_2x.jpg);
-    /* background-size: 1262px 580px; */
     background-repeat: no-repeat;
-    /* background-size: cover; */
     transform: scale(1.9) translateY(-10px);
+    margin: 0;
+}
+
+.product-img--homepod {
+    width: 1262px;
+    height: 580px;
+    background-image: url(../assets/img/tile_homepod_mini__b73w4z3ljymu_medium_2x.jpg);
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.33) translateY(-73px);
     margin: 0;
 }
 
