@@ -362,6 +362,10 @@ footer {
     margin-bottom: 0.8em;
 }
 
+.footer-nav__list-item a:hover {
+    text-decoration: underline;
+}
+
 .footer__shop {
     margin-bottom: 7px;
     padding-top: 34px;
