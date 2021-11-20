@@ -25,6 +25,7 @@ body {
     letter-spacing: -0.022em;
     font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
         "Arial", sans-serif;
+    overflow-x: hidden;
 }
 
 nav {
@@ -484,6 +485,57 @@ sup {
     background-repeat: no-repeat;
     background-position: bottom;
     transform: scale(0.94) translateY(19px);
+}
+
+/*** tv ***/
+.product-page--tv .tv-logo {
+    margin-bottom: 5px;
+    margin-top: 59px;
+    height: 35px;
+    background-size: 80 px 31 px;
+    background-repeat: no-repeat;
+    background-image: url(../assets/img/logo_light__cfvl40z2nzau_large.png);
+    background-position: center;
+    transform: scale(1.05) translateY(-1px);
+}
+
+.product-page--tv .product-info__content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 37px;
+    text-align: center;
+}
+
+.product-img--tv {
+    margin: 0;
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-image: url(../assets/img/promo_dickinson__c9ea4l2f5rki_medium_2x.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.product-page--tv .dickinson-logo {
+    width: 257px;
+    height: 127px;
+    margin: auto;
+    background-image: url(../assets/img/logo_dickinson_title__exfqr7iiyc8y_large.png);
+    background-repeat: no-repeat;
+    background-size: 257px 127px;
+    background-position: center;
+}
+
+.product-page--tv .product-links {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.23536;
+    font-weight: 300;
+    letter-spacing: -0.022em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons",
+        "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 /* Footer */
