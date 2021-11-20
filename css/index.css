@@ -64,6 +64,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 ul {
     list-style-type: none;
 }
@@ -112,6 +116,10 @@ footer {
     height: 44px;
     min-width: 980px;
     transform: translateX(3px);
+}
+
+.nav-menu a {
+    text-decoration: none;
 }
 
 .nav-logo {
@@ -181,6 +189,11 @@ footer {
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
         "Arial", sans-serif;
     margin-top: 0.65em;
+    z-index: 10;
+}
+
+.product-links a {
+    z-index: 10;
 }
 
 .img-wrapper {
