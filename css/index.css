@@ -512,8 +512,8 @@ footer {
     height: 100%;
     background-size: 1370px 736px;
     background-repeat: no-repeat;
-    background-position-y: -60px;
-    transform: scaleY(1.05);
+    background-position-y: -56px;
+    transform: scale(1.09, 1.17);
 }
 
 /*** iPhone 13 ***/
@@ -528,6 +528,7 @@ footer {
     background-size: 1370px 736px;
     background-repeat: no-repeat;
     background-position-y: -60px;
+    background-position-x: -40px;
     transform: scaleY(1.05);
 }
 
@@ -544,10 +545,10 @@ footer {
     width: 1262px;
     height: 580px;
     background-image: url(../assets/img/tile_macbookpro__cx0ur0qg9biq_medium_2x.jpg);
-    background-size: 1262px 580px;
     background-repeat: no-repeat;
-    background-size: cover;
-    transform: scale(1.1) translateY(-80px);
+    background-size: 732px 696px;
+    background-position: center;
+    transform: scale(1.1) translateY(-26px);
     margin: 0;
 }
 
@@ -567,7 +568,7 @@ footer {
 .product-img--watch {
     background-image: url(../assets/img/tile_watch__e9n11b6m6yq2_medium_2x.jpg);
     background-repeat: no-repeat;
-    transform: scale(1.9) translateY(-10px);
+    transform: scale(1.85) translateY(-11px);
     margin: 0;
 }
 
@@ -578,8 +579,9 @@ footer {
     background-image: url(../assets/img/tile_homepod_mini__b73w4z3ljymu_medium_2x.jpg);
     background-size: 1262px 580px;
     background-repeat: no-repeat;
-    background-size: cover;
-    transform: scale(1.33) translateY(-73px);
+    background-size: 732px 696px;
+    background-position: center;
+    transform: scale(1.33) translateY(-16px);
     margin: 0;
 }
 
@@ -618,10 +620,10 @@ footer {
     width: 100%;
     height: 100%;
     background-image: url(../assets/img/tile__cauwwcyyn9hy_medium_2x.jpg);
-    background-size: cover;
+    background-size: 682px 650px;
     background-repeat: no-repeat;
     background-position: bottom;
-    transform: scale(0.94) translateY(19px);
+    transform: scale(0.94) translateY(21px);
 }
 
 /*** tv ***/
@@ -629,7 +631,6 @@ footer {
     margin-bottom: 5px;
     margin-top: 59px;
     height: 35px;
-    background-size: 80 px 31 px;
     background-repeat: no-repeat;
     background-image: url(../assets/img/logo_light__cfvl40z2nzau_large.png);
     background-position: center;
