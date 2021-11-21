@@ -491,6 +491,10 @@ footer {
     position: initial;
 }
 
+.img-wrapper--holiday .product-img {
+    animation: rotate 4s 0.125s ease-in-out forwards;
+}
+
 .product-page--holiday .product-img--iphone13 {
     background-image: url(../assets/img/iphone__cyamwsdph26a_medium_2x.png);
 }
@@ -688,4 +692,14 @@ footer {
 
 /* Media */
 /* Keyframes */
+@keyframes rotate {
+    from {
+        webkit-transform: rotateZ(-4deg);
+        transform: rotateZ(-4deg);
+    }
+    to {
+        webkit-transform: rotateZ(0deg);
+        transform: rotateZ(0deg);
+    }
+}
 /* Transitions */
